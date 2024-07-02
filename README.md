@@ -23,7 +23,7 @@ This repository contains a Natural Language Processing (NLP) application built w
  **Clone the repository**:
 
     git clone https://github.com/Panchalparth471/NLPApp-Using-Tkinter.git
-    cd nlp-app-tkinter
+    cd NLPApp-Using-Tkinter
     
 
 ## Usage
