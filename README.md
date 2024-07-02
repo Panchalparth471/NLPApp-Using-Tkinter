@@ -55,3 +55,10 @@ Refer to the [Eden AI Documentation ](https://docs.edenai.co/reference).
 For Tkinter [Tkinter Documentatiom](https://docs.python.org/3/library/tkinter.html).
 
 
+## Images
+![Login](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/login-image.png)
+![Register](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/register-image.png)
+![Menu](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/menu.png)
+![Sentiment](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/sentiment.png)
+
+
