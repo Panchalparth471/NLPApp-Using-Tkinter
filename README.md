@@ -28,7 +28,10 @@ This repository contains a Natural Language Processing (NLP) application built w
 
 ## Usage
 
-1. **Run the application**:
+0. **Get your api key from Eden AI**
+   ``` From myapi.py file in the headers replace <YOUR_API_KEY/API_TOKEN> to the api key you got ```
+
+2. **Run the application**:
   ```
    python main.py
    ```
