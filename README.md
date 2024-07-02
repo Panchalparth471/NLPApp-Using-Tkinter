@@ -56,9 +56,9 @@ For Tkinter [Tkinter Documentatiom](https://docs.python.org/3/library/tkinter.ht
 
 
 ## Images
-![Login](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/login-image.png)
-![Register](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/register-image.png)
-![Menu](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/menu.png)
-![Sentiment](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/sentiment.png)
+![Login](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/login-image.png) <br>
+![Register](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/register-image.png)  <br>
+![Menu](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/menu.png)  <br>
+![Sentiment](https://github.com/Panchalparth471/NLPApp-Using-Tkinter/raw/main/sentiment.png)  <br>
 
 
