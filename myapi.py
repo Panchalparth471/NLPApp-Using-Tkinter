@@ -4,10 +4,10 @@ import json
 class API:
     def __init__(self):
       pass 
-  
+
+    #Api key for sentiment_analysis
     def sentiment_analysis(self,text):
      url = "https://api.edenai.run/v2/text/sentiment_analysis"
-
 
      payload = {
          "response_as_dict": True,
@@ -20,7 +20,7 @@ class API:
      headers = {
          "accept": "application/json",
          "content-type": "application/json",
-         "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjk0OTZkODYtYjllNi00MzMxLTk5ZTUtYzA4ODlhNmEzNDk3IiwidHlwZSI6ImFwaV90b2tlbiJ9.E0dKH4XFu8ysHlNELBRcfYKdLpjW_ENHv2Su35tOvV4"
+         "authorization": "Bearer <YOUR_API_KEY/API_TOKEN>"
      }
 
      response = requests.post(url, json=payload, headers=headers)
@@ -34,9 +34,10 @@ class API:
      print(openai_sentiment_rate)
      return '{}->{}'.format(openai_sentiment,openai_sentiment_rate)
 
+
+    #Api call for emotion detection
     def emotion(self,text):
      url = "https://api.edenai.run/v2/text/emotion_detection"
-
 
      payload = {
       "providers": "nlpcloud,vernai",
@@ -45,7 +46,7 @@ class API:
      headers = {
          "accept": "application/json",
          "content-type": "application/json",
-         "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjk0OTZkODYtYjllNi00MzMxLTk5ZTUtYzA4ODlhNmEzNDk3IiwidHlwZSI6ImFwaV90b2tlbiJ9.E0dKH4XFu8ysHlNELBRcfYKdLpjW_ENHv2Su35tOvV4"
+         "authorization": "Bearer <YOUR_API_KEY/API_TOKEN>"
      }
 
      response = requests.post(url, json=payload, headers=headers)
@@ -57,7 +58,8 @@ class API:
      print('{} -> {}'.format(nlpcloud_emotion,nlpcloud_score))
      return '{} -> {}'.format(nlpcloud_emotion,nlpcloud_score)
      
-     
+
+    #Api call for natural entity recognition
     def ner(self,text):
         
      url = "https://api.edenai.run/v2/text/named_entity_recognition"
@@ -73,7 +75,7 @@ class API:
      headers = {
          "accept": "application/json",
          "content-type": "application/json",
-         "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjk0OTZkODYtYjllNi00MzMxLTk5ZTUtYzA4ODlhNmEzNDk3IiwidHlwZSI6ImFwaV90b2tlbiJ9.E0dKH4XFu8ysHlNELBRcfYKdLpjW_ENHv2Su35tOvV4"
+         "authorization": "Bearer <YOUR_API_KEY/API_TOKEN>"
      }
      
      response = requests.post(url, json=payload, headers=headers)
